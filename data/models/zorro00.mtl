@@ -1,0 +1,50 @@
+# Rhino
+newmtl Plastic - Translucent Matte (Blue)
+Ka 0.2000 0.2000 0.2000
+Kd 0.1843 0.2314 0.5843
+Ks 0.2000 0.2000 0.2000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 65.0250
+newmtl Plastic - Translucent Matte (Red)
+Ka 0.2000 0.2000 0.2000
+Kd 0.7647 0.2039 0.1490
+Ks 0.2000 0.2000 0.2000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 65.0250
+newmtl Plastic - Translucent Glossy (Green)
+Ka 0.2000 0.2000 0.2000
+Kd 0.2667 0.5843 0.2824
+Ks 0.2000 0.2000 0.2000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 65.0250
+newmtl Steel - Satin
+Ka 0.2000 0.2000 0.2000
+Kd 0.6275 0.6275 0.6275
+Ks 0.2000 0.2000 0.2000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 65.0250
+newmtl Plastic - Translucent Matte (Yellow)
+Ka 0.2000 0.2000 0.2000
+Kd 0.9059 0.6745 0.1373
+Ks 0.2000 0.2000 0.2000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 65.0250
+newmtl Plastic - Translucent Matte (Gray)
+Ka 0.2000 0.2000 0.2000
+Kd 0.7020 0.7020 0.7020
+Ks 0.2000 0.2000 0.2000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 65.0250
+newmtl Aluminum - Anodized Rough (Grey)
+Ka 0.2000 0.2000 0.2000
+Kd 0.5373 0.5373 0.5373
+Ks 0.2000 0.2000 0.2000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 65.0250
