@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-	<title>KUBLOX, aprende jugando</title>
+	<title>KUBO</title>
 	<!-- include three.js library -->
 	<script src="./libraries/js/three.js"></script>
 	<!-- include jsartookit -->
@@ -15,7 +15,6 @@
 
 	<script src="./libraries/js//MTLLoader.js"></script>
 	<script src="./libraries/js//OBJLoader.js"></script>
-	<script src="./libraries/js//FBXLoader.js"></script>
 
 	<!-- jQuery code to display an information button and box when clicked -->
 	<script src="./libraries/js/jquery-1.9.1.js"></script>
@@ -32,12 +31,49 @@
 		}
 	</style>
 
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+	<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+
 	
 </head>
 
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+<video id="video" src="./video/sintel.mp4"  crossOrigin="anonymous" preload="none" muted style="display:none"></video>
+	<!-- <source src="video/sintel.mp4" type='video/mp4';  codecs="avc1.42E01E, mp4a.40.2"'> -->
+</video>
+
+
+
+
+<script>
+// Show loading animation.
+var playPromise = video.play();
+
+if (playPromise !== undefined) {
+  playPromise.then(_ => {
+	// Automatic playback started!
+	// Show playing UI.
+	// We can now safely pause video...
+	video.pause();
+  })
+  .catch(error => {
+	// Auto-play was prevented
+	// Show paused UI.
+  });
+}
+// Show loading animation.
+
+</script>
+
+
+	
 
 <script type= module src= "./kublox.js"></script>
+
+
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+
 
 </body>
 </html>
